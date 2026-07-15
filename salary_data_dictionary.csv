@@ -1,0 +1,6 @@
+column_name,data_type,description,example_value,unique_values
+roll_number,string,Unique student identifier/roll number,R0001,100
+cgpa,float,Student's cumulative grade point average,6.87,88
+projects,integer,Number of projects completed by the student,3,6
+internship,integer,Number of internships completed by the student,2,4
+salary,float,Student's salary (target variable, likely in LPA - lakhs per annum),7.17,91

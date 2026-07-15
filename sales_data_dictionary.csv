@@ -1,0 +1,15 @@
+column_name,data_type,description,example_value,unique_values
+date,date (YYYY-MM-DD),Date of the recorded sales observation,2024-02-03,20
+store_id,integer,Unique identifier for the store,1,5
+store_size,string,Size category of the store,Small,3
+day_of_week,integer,Day of the week the record occurred (numeric encoding),5,6
+is_weekend,boolean (0/1),Whether the date falls on a weekend (1 = yes 0 = no),1,2
+is_holiday,boolean (0/1),Whether the date is a holiday (1 = yes 0 = no),0,1
+month,integer,Calendar month of the observation (1-12),2,11
+marketing_spend,float,Amount spent on marketing for that period in dollars,199.9,100
+promotion,boolean (0/1),Whether a promotion was active (1 = yes 0 = no),0,2
+price,float,Selling price of the product for that period in dollars,24.15,94
+competitor_price,float,Competitor's price for a comparable product in dollars,23.37,94
+footfall,float,Number of customers who visited the store,516.0,83
+temperature_c,float,Recorded temperature in degrees Celsius,7.2,87
+sales,float,Total sales revenue for that period in dollars (target variable),1531.61,100

@@ -1,0 +1,16 @@
+column_name,data_type,description,example_value,unique_values
+house_id,integer,Unique identifier for each house record,1,100
+sqft_living,float,Living area of the house in square feet,2123.0,97
+bedrooms,integer,Number of bedrooms in the house,3,6
+bathrooms,float,Number of bathrooms (fractional values indicate half-baths),3.0,7
+floors,float,Number of floors/stories in the house,1.0,5
+year_built,integer,Year the house was originally built,1995,68
+age_years,integer,Age of the house in years (as of reference year),31,68
+lot_size,float,Total lot size in square feet,4038.0,98
+garage_spaces,integer,Number of garage parking spaces,1,4
+neighborhood,string,Name of the neighborhood/area where the house is located,Downtown,6
+has_pool,boolean (0/1),Whether the house has a pool (1 = yes 0 = no),0,2
+has_renovated,boolean (0/1),Whether the house has been renovated (1 = yes 0 = no),0,2
+condition,integer,Overall condition rating of the house on a scale (e.g. 1-5),4,5
+distance_to_city_center_km,float,Distance from the house to the city center in kilometers,1.06,97
+price,float,Sale/listing price of the house in dollars (target variable),538182.0,100
